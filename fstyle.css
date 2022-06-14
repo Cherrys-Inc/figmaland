@@ -9,6 +9,7 @@
 .row{
     margin-right: 0px;
 }
+
 .nrow{
     justify-content: center;
 }
@@ -898,14 +899,25 @@ color: #FFFFFF;
 
 }
 
+@media only screen and (max-width:340px){
+    .mob1{
+        border-radius: 10px;
+        max-width: 290px;
+    height: 285px;
+   
 
+    }
+    
+}
 @media only screen and (min-width:320px) and (max-width: 768px)   {
-
-    .menu,.btn2{
+.card{
+    align-content: space-around;
+}
+    .menu{
         display: block;
     }
     .btn2{
-        padding: 12px 47px;
+        display: none;
     }
     .btn1{
         display: none;
@@ -916,8 +928,37 @@ color: #FFFFFF;
     .logo{
         padding-left: 1rem;
     }
+    .row7,.row8{
+        margin-right: 0.5rem;
+    }
     .row6{
         gap:0px;
+    }
+    .text1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+    .text2{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+    .heading{
+        margin-left: 2rem;
+        margin-right: 2rem;
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+/* or 119% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
     }
   
     .nrow{
@@ -938,6 +979,8 @@ color: #FFFFFF;
         flex-direction: column;
         gap:25px;
         align-content: center;
+        margin-left: 1rem;
+    margin-right: 1rem;
     }
     .mob1{
         border-radius: 10px;
@@ -951,6 +994,7 @@ color: #FFFFFF;
         
         
     }
+   
     .mosaic_items:first-of-type{
         grid-column: 2/ span 2;
         grid-row: 1 / span 2;
@@ -980,6 +1024,15 @@ color: #FFFFFF;
         display: none;
     }
     
+}
+@media only screen and (max-width:340px){
+    .mob1{
+        border-radius: 10px;
+        max-width: 290px;
+    height: 285px;
+   
+
+    }
 }
 
 
